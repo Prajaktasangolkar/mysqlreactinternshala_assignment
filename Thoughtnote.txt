@@ -1,0 +1,18 @@
+Frontend (my-app):
+1. Created a React app named `my-app` using the command `npx create-react-app my-app`.
+2. Used Bootstrap, linking it in the public/index.html file.
+3. Utilized the `fetchTasks`, `addTask`, and `handleDelete` functions in the App.js file.
+4. Imported App component in index.js: `<App />`.
+5. Styled the app with some keyframes and media query in App.css.
+
+Backend (server.js):
+1. Installed necessary libraries: axios, cors, express, and node-persist.
+2. Utilized Postman to check if data requests are functioning correctly.
+3. Stored data in JSON format using the node-persist library.
+4. Implemented functions like `addTasks`, `getTasks`, and `deleteTask`.
+5. Cleared old data on server start using `await storage.clear()`.
+6. Configured MySQL with root, hostname, and password.
+7. Created a table named `task_manager1` in the MySQL admin page.
+8. Stored and managed data in the `task_manager1` table.
+9. Observed changes in the table when adding or deleting data.
+
